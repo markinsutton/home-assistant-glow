@@ -112,8 +112,7 @@ sensor:
       name: '${friendly_name} - Total energy'
       unit_of_measurement: 'kWh'
       icon: mdi:circle-slice-3
-
-      state_class: measurement
+      state_class: TOTAL_INCREASING
       device_class: energy
       accuracy_decimals: 3
       filters:
